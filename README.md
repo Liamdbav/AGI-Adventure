@@ -18,7 +18,7 @@
 
 ---
 
-## ░▒▓ Synopsis ▓▒░
+## Synopsis
 
 **AGI Adventure** est un RPG monster-tamer futuriste-fantasy codé en Rust.
 L'univers mêle culture hacker, sysadmin, indie tech et références internet (Linus, Snowden, HuggingFace, LeBonCoin…).
@@ -28,7 +28,7 @@ Tu nommes ton personnage, tu explores **Nebular City** et **Wiki Road**, tu capt
 
 ---
 
-## ░▒▓ Créatures ▓▒░
+## Créatures
 
 | Nom | Type | Capacités |
 |---|---|---|
@@ -38,7 +38,7 @@ Tu nommes ton personnage, tu explores **Nebular City** et **Wiki Road**, tu capt
 
 ---
 
-## ░▒▓ Prérequis ▓▒░
+## Prérequis
 
 - **Rust stable ≥ 1.85** — [rustup.rs](https://rustup.rs)
 - **macOS** — Xcode Command Line Tools : `xcode-select --install`
@@ -47,7 +47,7 @@ Tu nommes ton personnage, tu explores **Nebular City** et **Wiki Road**, tu capt
 
 ---
 
-## ░▒▓ Lancer le jeu ▓▒░
+## Lancer le jeu
 
 ```bash
 # Mode développement
@@ -60,7 +60,7 @@ cargo build --release
 
 ---
 
-## ░▒▓ Contrôles ▓▒░
+## Contrôles
 
 | Action | Touches |
 |---|---|
@@ -75,7 +75,7 @@ cargo build --release
 
 ---
 
-## ░▒▓ Stack technique ▓▒░
+## Stack technique
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -92,7 +92,7 @@ cargo build --release
 
 ---
 
-## ░▒▓ Structure du projet ▓▒░
+## Structure du projet
 
 ```
 agi-adventure/
