@@ -1,0 +1,18 @@
+[
+  {
+    "id": "patch",
+    "name": "Patch",
+    "description": "Applique un correctif d'urgence. Restaure 20 HP.",
+    "effect": "heal",
+    "value": 20,
+    "price": 300
+  },
+  {
+    "id": "capture_flag",
+    "name": "Capture The Flag",
+    "description": "Un CTF bien placé. Tente de capturer une créature sauvage.",
+    "effect": "capture",
+    "value": 1,
+    "price": 200
+  }
+]

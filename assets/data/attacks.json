@@ -1,0 +1,48 @@
+[
+  {
+    "id": "surcharge",
+    "name": "Surcharge",
+    "description": "Jette un composant surchargé en tension.",
+    "power": 25,
+    "accuracy": 100,
+    "pp": 30,
+    "type": "prompt",
+    "category": "physical"
+  },
+  {
+    "id": "guardrail",
+    "name": "Guardrail",
+    "description": "Active un bouclier défensif. Réduit les dégâts reçus de 30% pendant 3 tours.",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 20,
+    "type": "brute",
+    "category": "status",
+    "effect": "defense_boost",
+    "effect_value": 30,
+    "effect_duration": 3
+  },
+  {
+    "id": "injection",
+    "name": "Injection",
+    "description": "Requête malveillante parfaitement placée.",
+    "power": 60,
+    "accuracy": 90,
+    "pp": 5,
+    "type": "exploit",
+    "category": "special"
+  },
+  {
+    "id": "trend_effect",
+    "name": "Trend Effect",
+    "description": "Applique un effet de foule. Réduit la vitesse ennemie de 30% pendant 3 tours.",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 15,
+    "type": "exploit",
+    "category": "status",
+    "effect": "speed_down",
+    "effect_value": 30,
+    "effect_duration": 3
+  }
+]

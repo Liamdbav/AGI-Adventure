@@ -1,0 +1,41 @@
+[
+  {
+    "id": "bob",
+    "name": "Bob",
+    "type": ["prompt"],
+    "description": "La créature de base. Bob explique tout, comprend tout, ne fait jamais rien de compliqué.",
+    "base_hp": 45,
+    "base_attack": 49,
+    "base_defense": 49,
+    "base_speed": 45,
+    "catch_rate": 255,
+    "learnable_moves": ["surcharge", "guardrail"],
+    "wild_levels": [2, 7]
+  },
+  {
+    "id": "alice",
+    "name": "Alice",
+    "type": ["brute"],
+    "description": "La cryptographe. Alice chiffre fort et frappe encore plus fort.",
+    "base_hp": 44,
+    "base_attack": 62,
+    "base_defense": 43,
+    "base_speed": 50,
+    "catch_rate": 180,
+    "learnable_moves": ["injection", "guardrail"],
+    "wild_levels": [4, 9]
+  },
+  {
+    "id": "john",
+    "name": "John",
+    "type": ["exploit"],
+    "description": "Le générique. John Doe de l'exploit — personne ne sait vraiment d'où il vient.",
+    "base_hp": 40,
+    "base_attack": 55,
+    "base_defense": 40,
+    "base_speed": 70,
+    "catch_rate": 200,
+    "learnable_moves": ["surcharge", "trend_effect"],
+    "wild_levels": [3, 8]
+  }
+]

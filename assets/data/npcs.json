@@ -1,0 +1,34 @@
+[
+  {
+    "id": "groki",
+    "name": "Groki",
+    "tile_x": 5,
+    "tile_y": 2,
+    "map": "town",
+    "is_trainer": false,
+    "dialogue": [
+      "Oh, un nouveau hacker. Fascinant. Ou pas.",
+      "Les ShinyHunterz ont infecté les nœuds centraux de l'AGI.",
+      "Sors par le nord. Wiki Road. Les créatures là-bas sont... basiques. Comme toi pour l'instant.",
+      "Pro tip : Bob est partout sur Wiki Road. Capture-en un. Ou pas. Je m'en fous."
+    ]
+  },
+  {
+    "id": "script_kiddies",
+    "name": "Script Kiddies",
+    "tile_x": 7,
+    "tile_y": 6,
+    "map": "town",
+    "is_trainer": true,
+    "dialogue": [
+      "Haha ! J'ai téléchargé le meilleur script du dark web !",
+      "Tu ne passes pas sans te battre, noob !"
+    ],
+    "dialogue_defeated": [
+      "C-c'est impossible... mon script avait 5 étoiles sur GitHub..."
+    ],
+    "trainer_team": [
+      { "creature_id": "bob", "level": 5 }
+    ]
+  }
+]

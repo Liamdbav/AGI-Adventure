@@ -1,0 +1,7 @@
+/target
+save.json
+save.json.tmp
+**/.DS_Store
+*.log
+.idea/
+.vscode/
